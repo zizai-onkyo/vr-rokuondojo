@@ -1,0 +1,276 @@
+{
+  "title": "上京の朝",
+  "setting": "翌朝のリビング。幼馴染のソウタが、見送りに「長いもの」を持ってやって来る。母ミナは奥の部屋、娘ハルはリビングにいる。",
+  "stage": {
+    "id": 2,
+    "title": "上京の朝",
+    "desc": "3人芝居。役者が動く。交互に話さないフェイント。雑音源に注意。"
+  },
+  "actors": [
+    {
+      "id": "A",
+      "name": "ミナ",
+      "role": "母",
+      "look": {
+        "color": "#c9533b",
+        "skin": "#f1c9a5",
+        "hair": "#3b2a22",
+        "x": 2.3,
+        "z": -1.3,
+        "facingDeg": -110
+      },
+      "voice": {
+        "model": "まお",
+        "speaker": "まお",
+        "pitch": -0.07,
+        "speed": 0.95,
+        "intonation": 1,
+        "styles": {
+          "normal": "ふつー",
+          "calm": "おちつき",
+          "happy": "あまあま",
+          "sad": "せつなめ",
+          "angry": "ノーマル",
+          "high": "からかい"
+        }
+      }
+    },
+    {
+      "id": "B",
+      "name": "ハル",
+      "role": "娘",
+      "look": {
+        "color": "#4e7bd3",
+        "skin": "#f3d2b3",
+        "hair": "#6b4330",
+        "x": 0.35,
+        "z": 0.1,
+        "facingDeg": -25
+      },
+      "voice": {
+        "model": "コハク",
+        "speaker": "コハク",
+        "pitch": 0.02,
+        "speed": 1.06,
+        "intonation": 1.25,
+        "styles": {
+          "normal": "ノーマル",
+          "calm": "ねむたい",
+          "happy": "あまあま",
+          "sad": "せつなめ",
+          "angry": "ノーマル",
+          "high": "あまあま"
+        }
+      }
+    },
+    {
+      "id": "C",
+      "name": "ソウタ",
+      "role": "幼馴染。見送りに来る",
+      "look": {
+        "color": "#3f8a5a",
+        "skin": "#e9c19c",
+        "hair": "#1d1b1a",
+        "x": -1.6,
+        "z": -0.3,
+        "facingDeg": 90
+      },
+      "voice": {
+        "model": "hinakoyuhara",
+        "speaker": "hinakoyuhara",
+        "pitch": 0,
+        "speed": 1.02,
+        "intonation": 1.1,
+        "styles": {
+          "normal": "ノーマル",
+          "calm": "ノーマル",
+          "happy": "ノーマル",
+          "sad": "ノーマル",
+          "angry": "ノーマル",
+          "high": "ノーマル"
+        }
+      }
+    }
+  ],
+  "blocking": [
+    {
+      "atLine": 0,
+      "offset": -0.5,
+      "actor": "C",
+      "to": [
+        -0.95,
+        -0.15,
+        70
+      ],
+      "dur": 2.6
+    },
+    {
+      "atLine": 3,
+      "offset": -0.6,
+      "actor": "A",
+      "to": [
+        1.15,
+        -0.35,
+        -60
+      ],
+      "dur": 2.6
+    },
+    {
+      "atLine": 6,
+      "offset": -0.3,
+      "actor": "B",
+      "to": [
+        0.05,
+        0.3,
+        20
+      ],
+      "dur": 1.5
+    },
+    {
+      "atLine": 9,
+      "offset": 0.4,
+      "actor": "C",
+      "to": [
+        -0.7,
+        0.35,
+        30
+      ],
+      "dur": 1.6
+    }
+  ],
+  "lines": [
+    {
+      "actor": "C",
+      "text": "おはよー！ハル！見送りに来たぞー！",
+      "style": "normal",
+      "level": "loud",
+      "gapAfter": 0.5,
+      "file": "audio/s2_00.wav",
+      "duration": 2.623,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "B",
+      "text": "ソウタ！……え、何それ。長いの。",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.7,
+      "file": "audio/s2_01.wav",
+      "duration": 3.658,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "B",
+      "text": "お母さーん！ソウタが、変なの持ってきたー！",
+      "style": "high",
+      "level": "loud",
+      "gapAfter": 0.9,
+      "file": "audio/s2_02.wav",
+      "duration": 3.187,
+      "styleUsed": "あまあま"
+    },
+    {
+      "actor": "A",
+      "text": "朝から大きい声。……あら、ソウタくん。それ、物干し竿？",
+      "style": "calm",
+      "level": "normal",
+      "gapAfter": 0.5,
+      "file": "audio/s2_03.wav",
+      "duration": 5.49,
+      "styleUsed": "おちつき"
+    },
+    {
+      "actor": "C",
+      "text": "ブームポールです！ハルが東京で使うって聞いて。ホームセンターで、一番長いの買ってきました！",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.6,
+      "file": "audio/s2_04.wav",
+      "duration": 6.354,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "A",
+      "text": "ホームセンター。ほら、言ったでしょ。",
+      "style": "high",
+      "level": "normal",
+      "gapAfter": 0.8,
+      "file": "audio/s2_05.wav",
+      "duration": 3.08,
+      "styleUsed": "からかい"
+    },
+    {
+      "actor": "B",
+      "text": "……ソウタ。これ、洗濯物を干す棒。",
+      "style": "sad",
+      "level": "whisper",
+      "gapAfter": 0.9,
+      "file": "audio/s2_06.wav",
+      "duration": 4.003,
+      "styleUsed": "せつなめ"
+    },
+    {
+      "actor": "A",
+      "text": "ハル。電車の時間。",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.6,
+      "file": "audio/s2_07.wav",
+      "duration": 2.377,
+      "styleUsed": "ふつー"
+    },
+    {
+      "actor": "B",
+      "text": "……お母さん。昨日の、まだ言ってくれてないんだけど。",
+      "style": "sad",
+      "level": "normal",
+      "gapAfter": 1.1,
+      "file": "audio/s2_08.wav",
+      "duration": 4.276,
+      "styleUsed": "せつなめ"
+    },
+    {
+      "actor": "C",
+      "text": "あ、おれ、荷物持つよ。棒も持つ。",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.6,
+      "file": "audio/s2_09.wav",
+      "duration": 3.372,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "A",
+      "text": "ハル。玄関の黒いケース、持っていきなさい。昔、私が使ってたの。",
+      "style": "calm",
+      "level": "normal",
+      "gapAfter": 0.9,
+      "file": "audio/s2_10.wav",
+      "duration": 6.152,
+      "styleUsed": "おちつき"
+    },
+    {
+      "actor": "B",
+      "text": "……え。お母さん、録音部だったの？",
+      "style": "sad",
+      "level": "whisper",
+      "gapAfter": 0.8,
+      "file": "audio/s2_11.wav",
+      "duration": 3.389,
+      "styleUsed": "せつなめ"
+    },
+    {
+      "actor": "A",
+      "text": "行ってきなさい！……録らなくていいから！",
+      "style": "happy",
+      "level": "loud",
+      "gapAfter": 1.5,
+      "file": "audio/s2_12.wav",
+      "duration": 3.385,
+      "styleUsed": "あまあま"
+    }
+  ],
+  "credits": {
+    "voice": "AivisSpeech: まお / コハク（Oz Chat） / hinakoyuhara"
+  }
+}

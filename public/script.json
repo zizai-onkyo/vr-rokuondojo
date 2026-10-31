@@ -1,0 +1,232 @@
+{
+  "title": "上京前夜",
+  "setting": "夜のリビング。段ボールが積まれた部屋。娘ハルは「日本最強の録音部になる」と言って明日、東京へ出る。母ミナは反対している。",
+  "actors": [
+    {
+      "id": "A",
+      "name": "ミナ",
+      "role": "母・落ち着いた低めの声。淡々と反対する",
+      "voice": {
+        "model": "まお",
+        "speaker": "まお",
+        "pitch": -0.07,
+        "speed": 0.95,
+        "intonation": 1,
+        "styles": {
+          "normal": "ふつー",
+          "calm": "おちつき",
+          "happy": "あまあま",
+          "sad": "せつなめ",
+          "angry": "ノーマル",
+          "high": "からかい"
+        }
+      },
+      "look": {
+        "color": "#c9533b",
+        "skin": "#f1c9a5",
+        "hair": "#3b2a22",
+        "x": -0.62,
+        "z": 0,
+        "facingDeg": 35
+      }
+    },
+    {
+      "id": "B",
+      "name": "ハル",
+      "role": "娘・高めで感情が出やすい声。熱血",
+      "voice": {
+        "model": "コハク",
+        "speaker": "コハク",
+        "pitch": 0.02,
+        "speed": 1.06,
+        "intonation": 1.25,
+        "styles": {
+          "normal": "ノーマル",
+          "calm": "ねむたい",
+          "happy": "あまあま",
+          "sad": "せつなめ",
+          "angry": "ノーマル",
+          "high": "あまあま"
+        }
+      },
+      "look": {
+        "color": "#4e7bd3",
+        "skin": "#f3d2b3",
+        "hair": "#6b4330",
+        "x": 0.62,
+        "z": 0,
+        "facingDeg": -35
+      }
+    }
+  ],
+  "lines": [
+    {
+      "actor": "B",
+      "text": "お母さん！荷造り、終わった！明日、東京に行きます！",
+      "style": "high",
+      "level": "normal",
+      "gapAfter": 0.6,
+      "file": "audio/line_00.wav",
+      "duration": 4.833,
+      "styleUsed": "あまあま"
+    },
+    {
+      "actor": "A",
+      "text": "はいはい。東京に行って、何になるんだっけ。",
+      "style": "calm",
+      "level": "normal",
+      "gapAfter": 0.9,
+      "file": "audio/line_01.wav",
+      "duration": 3.861,
+      "styleUsed": "おちつき"
+    },
+    {
+      "actor": "B",
+      "text": "……何回も言ったでしょ。日本最強の、録音部。",
+      "style": "sad",
+      "level": "whisper",
+      "gapAfter": 0.8,
+      "file": "audio/line_02.wav",
+      "duration": 4.781,
+      "styleUsed": "せつなめ"
+    },
+    {
+      "actor": "A",
+      "text": "ろくおんぶ。……部活？",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.5,
+      "file": "audio/line_03.wav",
+      "duration": 2.416,
+      "styleUsed": "ふつー"
+    },
+    {
+      "actor": "B",
+      "text": "部活じゃない！映画の現場で、棒の先のマイクで、役者の声を録る人！",
+      "style": "angry",
+      "level": "loud",
+      "gapAfter": 1,
+      "file": "audio/line_04.wav",
+      "duration": 5.73,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "A",
+      "text": "……声が大きい。お隣に聞こえる。",
+      "style": "calm",
+      "level": "whisper",
+      "gapAfter": 0.9,
+      "file": "audio/line_05.wav",
+      "duration": 3.773,
+      "styleUsed": "おちつき"
+    },
+    {
+      "actor": "B",
+      "text": "……小声でも録れる人になるの。だから、東京に行くの。",
+      "style": "sad",
+      "level": "whisper",
+      "gapAfter": 1.1,
+      "file": "audio/line_06.wav",
+      "duration": 5.082,
+      "styleUsed": "せつなめ"
+    },
+    {
+      "actor": "A",
+      "text": "棒なら、駅前のホームセンターにもあるけど。",
+      "style": "high",
+      "level": "normal",
+      "gapAfter": 0.5,
+      "file": "audio/line_07.wav",
+      "duration": 3.915,
+      "styleUsed": "からかい"
+    },
+    {
+      "actor": "B",
+      "text": "棒じゃなくて、ブームポール！",
+      "style": "angry",
+      "level": "normal",
+      "gapAfter": 0.8,
+      "file": "audio/line_08.wav",
+      "duration": 2.231,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "A",
+      "text": "とにかく、反対。お父さんも反対って言ってた。",
+      "style": "calm",
+      "level": "normal",
+      "gapAfter": 0.5,
+      "file": "audio/line_09.wav",
+      "duration": 4.147,
+      "styleUsed": "おちつき"
+    },
+    {
+      "actor": "B",
+      "text": "お父さん、ずっと寝てたじゃん！",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.5,
+      "file": "audio/line_10.wav",
+      "duration": 2.311,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "A",
+      "text": "寝言で言ってた。",
+      "style": "high",
+      "level": "normal",
+      "gapAfter": 2.2,
+      "file": "audio/line_11.wav",
+      "duration": 1.704,
+      "styleUsed": "からかい"
+    },
+    {
+      "actor": "B",
+      "text": "もう。じゃあ、お母さんの「行ってきなさい」を録音して、お守りにする。はい、どうぞ。",
+      "style": "happy",
+      "level": "normal",
+      "gapAfter": 2.4,
+      "file": "audio/line_12.wav",
+      "duration": 6.282,
+      "styleUsed": "あまあま"
+    },
+    {
+      "actor": "A",
+      "text": "……録るなら、口元をちゃんと狙いなさい。",
+      "style": "calm",
+      "level": "normal",
+      "gapAfter": 1,
+      "file": "audio/line_13.wav",
+      "duration": 3.697,
+      "styleUsed": "おちつき"
+    },
+    {
+      "actor": "B",
+      "text": "え。なんで知ってるの。",
+      "style": "normal",
+      "level": "normal",
+      "gapAfter": 0.6,
+      "file": "audio/line_14.wav",
+      "duration": 2.056,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "actor": "A",
+      "text": "早く寝なさい。",
+      "style": "calm",
+      "level": "normal",
+      "gapAfter": 1.5,
+      "file": "audio/line_15.wav",
+      "duration": 1.682,
+      "styleUsed": "おちつき"
+    }
+  ],
+  "credits": {
+    "voice": "AivisSpeech: まお / コハク（Oz Chat, ACML 1.0）"
+  },
+  "stage": {
+    "id": 1,
+    "title": "上京前夜",
+    "desc": "2人芝居。基本：口元を狙う・画角に入らない・影を落とさない。"
+  }
+}

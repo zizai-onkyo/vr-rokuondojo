@@ -1,0 +1,105 @@
+{
+  "title": "監督・助監督の掛け声",
+  "actors": [
+    {
+      "id": "DIR",
+      "name": "監督",
+      "voice": {
+        "model": "阿井田 茂",
+        "speaker": "阿井田",
+        "pitch": -0.02,
+        "speed": 1.0,
+        "intonation": 1.15,
+        "styles": {
+          "normal": "ノーマル",
+          "shout": "Shout",
+          "calm": "Calm",
+          "surprise": "Surprise",
+          "mid": "Mid"
+        }
+      }
+    },
+    {
+      "id": "AC",
+      "name": "助監督",
+      "voice": {
+        "model": "hinakoyuhara",
+        "speaker": "hinakoyuhara",
+        "pitch": 0.04,
+        "speed": 1.1,
+        "intonation": 1.0,
+        "styles": {
+          "normal": "ノーマル"
+        }
+      }
+    }
+  ],
+  "lines": [
+    {
+      "id": "roll",
+      "actor": "DIR",
+      "text": "はい、本番いきます。",
+      "style": "normal",
+      "level": "normal"
+    },
+    {
+      "id": "ready",
+      "actor": "DIR",
+      "text": "よーい。",
+      "style": "shout",
+      "level": "loud"
+    },
+    {
+      "id": "slate",
+      "actor": "AC",
+      "text": "シーン3、カット1！",
+      "style": "normal",
+      "level": "loud"
+    },
+    {
+      "id": "action",
+      "actor": "DIR",
+      "text": "スタート！",
+      "style": "shout",
+      "level": "loud"
+    },
+    {
+      "id": "cut",
+      "actor": "DIR",
+      "text": "カット！",
+      "style": "shout",
+      "level": "loud"
+    },
+    {
+      "id": "ok_s",
+      "actor": "DIR",
+      "text": "OK！いいねぇ、最高！",
+      "style": "surprise",
+      "level": "normal"
+    },
+    {
+      "id": "ok_a",
+      "actor": "DIR",
+      "text": "OK！いいよ。",
+      "style": "normal",
+      "level": "normal"
+    },
+    {
+      "id": "ok_b",
+      "actor": "DIR",
+      "text": "うーん……まあ、OK。",
+      "style": "calm",
+      "level": "normal"
+    },
+    {
+      "id": "retake",
+      "actor": "DIR",
+      "text": "うーん、もう一回いこう！",
+      "style": "mid",
+      "level": "normal"
+    }
+  ],
+  "credits": {
+    "voice": "AivisSpeech: 阿井田 茂 / hinakoyuhara"
+  }
+}
