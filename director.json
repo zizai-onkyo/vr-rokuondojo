@@ -1,0 +1,132 @@
+{
+  "title": "監督・助監督の掛け声",
+  "actors": [
+    {
+      "id": "DIR",
+      "name": "監督",
+      "voice": {
+        "model": "阿井田 茂",
+        "speaker": "阿井田",
+        "pitch": -0.02,
+        "speed": 1,
+        "intonation": 1.15,
+        "styles": {
+          "normal": "ノーマル",
+          "shout": "Shout",
+          "calm": "Calm",
+          "surprise": "Surprise",
+          "mid": "Mid"
+        }
+      }
+    },
+    {
+      "id": "AC",
+      "name": "助監督",
+      "voice": {
+        "model": "hinakoyuhara",
+        "speaker": "hinakoyuhara",
+        "pitch": 0.04,
+        "speed": 1.1,
+        "intonation": 1,
+        "styles": {
+          "normal": "ノーマル"
+        }
+      }
+    }
+  ],
+  "lines": [
+    {
+      "id": "roll",
+      "actor": "DIR",
+      "text": "はい、本番いきます。",
+      "style": "normal",
+      "level": "normal",
+      "file": "audio/dir_roll.wav",
+      "duration": 1.842,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "id": "ready",
+      "actor": "DIR",
+      "text": "よーい。",
+      "style": "shout",
+      "level": "loud",
+      "file": "audio/dir_ready.wav",
+      "duration": 0.856,
+      "styleUsed": "Shout"
+    },
+    {
+      "id": "slate",
+      "actor": "AC",
+      "text": "シーン3、カット1！",
+      "style": "normal",
+      "level": "loud",
+      "file": "audio/dir_slate.wav",
+      "duration": 1.721,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "id": "action",
+      "actor": "DIR",
+      "text": "スタート！",
+      "style": "shout",
+      "level": "loud",
+      "file": "audio/dir_action.wav",
+      "duration": 0.91,
+      "styleUsed": "Shout"
+    },
+    {
+      "id": "cut",
+      "actor": "DIR",
+      "text": "カット！",
+      "style": "shout",
+      "level": "loud",
+      "file": "audio/dir_cut.wav",
+      "duration": 0.849,
+      "styleUsed": "Shout"
+    },
+    {
+      "id": "ok_s",
+      "actor": "DIR",
+      "text": "OK！いいねぇ、最高！",
+      "style": "surprise",
+      "level": "normal",
+      "file": "audio/dir_ok_s.wav",
+      "duration": 2.049,
+      "styleUsed": "Surprise"
+    },
+    {
+      "id": "ok_a",
+      "actor": "DIR",
+      "text": "OK！いいよ。",
+      "style": "normal",
+      "level": "normal",
+      "file": "audio/dir_ok_a.wav",
+      "duration": 1.553,
+      "styleUsed": "ノーマル"
+    },
+    {
+      "id": "ok_b",
+      "actor": "DIR",
+      "text": "うーん……まあ、OK。",
+      "style": "calm",
+      "level": "normal",
+      "file": "audio/dir_ok_b.wav",
+      "duration": 2.214,
+      "styleUsed": "Calm"
+    },
+    {
+      "id": "retake",
+      "actor": "DIR",
+      "text": "うーん、もう一回いこう！",
+      "style": "mid",
+      "level": "normal",
+      "file": "audio/dir_retake.wav",
+      "duration": 2.028,
+      "styleUsed": "Mid"
+    }
+  ],
+  "credits": {
+    "voice": "AivisSpeech: 阿井田 茂 / hinakoyuhara"
+  }
+}
