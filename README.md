@@ -18,7 +18,7 @@ npm run dev        # http://127.0.0.1:5173
 ```
 
 Quest 実機で動かす場合は HTTPS が必要。公開ビルド: **https://zizai-onkyo.github.io/vr-rokuondojo/**（GitHub Pages、`gh-pages` ブランチ = `npm run build` の `dist/`）。Quest のブラウザで開いて「VRで体験（WebXR）」。
-更新は `npm run build` → `dist/` の中身を `gh-pages` ブランチに force push（`cd dist && git init -b gh-pages && git add -A && git commit -m deploy && git push -f https://github.com/zizai-onkyo/vr-rokuondojo.git gh-pages`）。
+更新は `scripts/deploy_pages.sh`（`npm run build` → `dist/` を `gh-pages` ブランチへ小分けの commit で push。大きな 1 回の push は GitHub 側の 408 タイムアウトで切れるため）。GitHub Actions でのデプロイに切り替えるには、`gh auth refresh -h github.com -s workflow` でトークンに workflow スコープを足してからワークフローを置く。
 同一 LAN なら `npx vite --host 0.0.0.0 --https`（要 `@vitejs/plugin-basic-ssl`）でも可（証明書警告を許可）。
 
 ## 操作
