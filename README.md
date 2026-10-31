@@ -7,7 +7,7 @@
 - PC シミュレーションモード（マウス操作）で同じコードが動く
 - 役者・監督・紹介映像のナレーションは AI 音声合成（AivisSpeech: まお・コハク / Oz Chat、fumifumi、hinakoyuhara、阿井田 茂。すべて ACML 1.0）
 - タイトルロゴは筆文字フォント TA風雅筆（Adobe Fonts）を `scripts/make_logo.py` で画像化（`public/img/logo_white.png`）
-- カメラ側に監督（モニター前）・カメラマン・カチンコの助手・照明部。カチンコは本番前にフレームインする
+- カメラ側に監督（モニター前）・カメラマン・助監督（カチンコ）・照明部。カチンコは本番前にフレームインする
 - ステージ: 1「上京前夜」（母娘2人）／ 2「上京の朝」（3人・移動・フェイント）。劇中ドラマは「最強の録音部になる」と言って親の反対を押し切り東京へ出る娘のコミカルな話。`N` キー / Y ボタンで切替
 
 ## 起動
@@ -17,8 +17,8 @@ npm install
 npm run dev        # http://127.0.0.1:5173
 ```
 
-Quest 実機で動かす場合は HTTPS が必要。
-最短は `npm run build` → `dist/` を GitHub Pages 等の静的ホスティングに置き、Quest のブラウザで開く。
+Quest 実機で動かす場合は HTTPS が必要。公開ビルド: **https://zizai-onkyo.github.io/vr-rokuondojo/**（GitHub Pages、`gh-pages` ブランチ = `npm run build` の `dist/`）。Quest のブラウザで開いて「VRで体験（WebXR）」。
+更新は `npm run build` → `dist/` の中身を `gh-pages` ブランチに force push（`cd dist && git init -b gh-pages && git add -A && git commit -m deploy && git push -f https://github.com/zizai-onkyo/vr-rokuondojo.git gh-pages`）。
 同一 LAN なら `npx vite --host 0.0.0.0 --https`（要 `@vitejs/plugin-basic-ssl`）でも可（証明書警告を許可）。
 
 ## 操作
@@ -118,7 +118,7 @@ node scripts/record_headless.mjs record award_take_v8 --split   # 音声分離: 
 src/main.js         ループ・モード切替・テイク進行・自動化API (window.__game)
 src/set.js          セット・架空カメラ・ライト・オンセットモニター
 src/actors.js       デフォルメ人物（口パク・歩行）。役者の見た目と初期位置は台本 JSON の look
-src/crew.js         監督・カメラマン・カチンコの助手・照明部
+src/crew.js         監督・カメラマン・助監督（カチンコ）・照明部
 src/presenter.js    開発者アバターのスタジオ（紹介映像のナレーション）
 src/stages.js       ステージ定義（台本 JSON のパス）
 src/flow.js         監督の掛け声のタイミング（よーい → カチンコ → スタート／カット → 反応）
